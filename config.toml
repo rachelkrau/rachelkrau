@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://rachelkrau.github.io/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Rachel Krause | UX/UI Designer"
 theme = "hugo-agency-theme"
