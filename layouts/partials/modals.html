@@ -10,20 +10,24 @@
       </div>
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
+          <div class="col-lg-10 col-lg-offset-1">
             <div class="modal-body">
               <h2>{{ .client  | markdownify }}</h2>
               <h3>{{ .title | markdownify }}</h3>
               <p class="item-intro text-muted">{{ with $.Site.Params.portfolio.modal.category }}{{ . }}{{ end }}: {{ .category  | markdownify }}</p>
               {{ $url := printf "img/portfolio/%s" .img }}
               <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
-              <h4>The Challenge</h4>
-              <p>{{ .subtitle | markdownify }}</p>
-              <h4>Activities</h4>
-              <p>{{ .description | markdownify }}</p>
+              <div class="row">
+                <div class="col-lg-6 col-lg-offset-3">
+                  <h4>The Challenge</h4>
+                  <p>{{ .subtitle | markdownify }}</p>
+                  <h4>Activities</h4>
+                  <p>{{ .description | markdownify }}</p>
+                </div>
+              </div>
               <div class="details">
                 <div><strong>{{ with $.Site.Params.portfolio.modal.date }}{{ . }}{{ end }}: </strong>{{ .date }}</div>
-                <div><strong>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: </strong><a href="{{ .clientLink }}">{{ .client }}</a></div>
+                <div><strong>{{ with $.Site.Params.portfolio.modal.client }}{{ . | markdownify }}{{ end }}: </strong><a href="{{ .clientLink }}" target="_blank">{{ .client }}</a></div>
               </div>
               <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
             </div>

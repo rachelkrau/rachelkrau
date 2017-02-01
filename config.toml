@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://rachelkrau.github.io/rachelkrau"
+baseurl = "https://rachelkrau.github.io/"
 languageCode = "en-us"
 title = "Rachel Krause | UX/UI Designer"
 theme = "hugo-agency-theme"
@@ -126,35 +126,35 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "About"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    endpoint = "Be part<br>of our<br>story!"
+    title = "Specialties"
+    subtitle = "A little bit about what I do."
+    endpoint = "Ready for<br />the next<br />big thing"
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
     [[params.about.events]]
       img = "1.jpg"
-      date = "2009-2011"
-      title = "Our Humble Beginnings"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Lean UX"
+      title = "Increase efficiency"
+      description = "I believe the best user experiences come out of collaboration. I'm an advocate for keeping the UX process lightweight and meaningful, only doing what is necessary to move the team forward."
 
     [[params.about.events]]
       img = "2.jpg"
-      date = "March 2011"
-      title = "An Agency is Born"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      date = "Consulting"
+      title = "Contribute to the team"
+      description = "I enjoy contributing to the team in any way possible. This can include the typical UX activities such as wireframes and user interviews, but I'm also able to contribute to the front-end code to help make a well-rounded application."
 
     [[params.about.events]]
       img = "3.jpg"
-      date = "December 2012"
-      title = "Our Humble Beginnings"
+      date = "Coaching"
+      title = "Learn all the things"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
     [[params.about.events]]
       img = "4.jpg"
-      date = "July 2014"
-      title = "Phase Two Expansion"
+      date = "Speaking"
+      title = "Speaking all the things"
       description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
 
 
